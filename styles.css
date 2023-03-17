@@ -378,7 +378,6 @@
 .history__cover--img {  
   height: 498px;
   position: relative;
-
 }
 
 .cover__img-1 {
@@ -411,9 +410,6 @@
 .ordering {
   max-width: 1440px;
   height: 357px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-image: url(img/ordering.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -421,10 +417,17 @@
 }
 
 .ordering__cover {
-  /* margin-left: 165px; */
-  display: grid;
-  grid-template-columns: 601px auto;
-  gap: 331px;
+  margin: 0 165px;
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1439px) {
+  .ordering__cover {
+    margin: 0 65px;
+  }
 }
 
 .ordering__cover-text {
