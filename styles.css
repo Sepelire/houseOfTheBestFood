@@ -123,7 +123,7 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 1024px) {
   .header {
     margin: 0 50px;
   }
@@ -193,7 +193,7 @@
   background: #FF7400;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 1024px) {
   .navigation--header {
     display: none;
   }
@@ -258,7 +258,7 @@
   gap: 31px;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 1024px) {
   .title-page__list {
     gap: 0;
   }
@@ -275,7 +275,7 @@
   box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 1024px) {
   .title-page__list-item {
     box-shadow: none;
   }
@@ -321,7 +321,7 @@
   column-gap: 125px;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 1024px) {
   .history {
     grid-template-columns: 540px;
     align-items: center;
@@ -424,7 +424,7 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 1024px) {
   .ordering__cover {
     margin: 0 65px;
   }
@@ -482,6 +482,12 @@
   background-size: cover;
   background-repeat: repeat;
   background-position: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .dishes__cover-img {
+    display: none;
+  }
 }
 
 .dishes__list {
