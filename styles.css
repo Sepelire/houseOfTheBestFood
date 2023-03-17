@@ -217,6 +217,12 @@
   align-items: center;
 }
 
+@media screen and (max-width: 1024px) {
+  .title-page__cover {
+    margin: 0 auto;
+  }
+}
+
 .title-page__title {
   font-size: 50px;
   font-weight: 400;
@@ -260,7 +266,7 @@
 
 @media screen and (max-width: 1024px) {
   .title-page__list {
-    gap: 0;
+    grid-template-columns: repeat(3, 310px);
   }
 }
 
@@ -277,7 +283,7 @@
 
 @media screen and (max-width: 1024px) {
   .title-page__list-item {
-    box-shadow: none;
+    max-width: 310px;
   }
 }
 
