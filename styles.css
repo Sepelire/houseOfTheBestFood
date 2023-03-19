@@ -415,7 +415,7 @@
 /* начало секции "ordering" */
 .ordering {
   max-width: 1440px;
-  height: 357px;
+  min-height: 357px;
   background-image: url(img/ordering.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -433,6 +433,14 @@
 @media screen and (max-width: 1439px) {
   .ordering__cover {
     margin: 0 65px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ordering__cover {
+    padding-bottom: 30px;
+    flex-direction: column;
+    row-gap: 41px;
   }
 }
 
