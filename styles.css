@@ -592,6 +592,7 @@
 .menu__list {
   margin: 0;
   display: grid;
+  max-height: 539px;
   grid-template-columns: repeat(3, 350px);
   column-gap: calc(0px + 30 * ((100vw - 1024px) / (1440 - 1024)));
   overflow: hidden;
@@ -600,8 +601,14 @@
 @media screen and (max-width: 1439px) {
   .menu__list {
     max-width: 730px;
-    max-height: 539px;
     grid-template-columns: repeat(2, 350px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu__list {
+    max-width: 350px;
+    grid-template-columns: 350px;
   }
 }
 
