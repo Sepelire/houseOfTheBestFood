@@ -310,20 +310,14 @@
 /* начало секции "history" */
 .history {
   margin: 151px auto 122px;
-  display: grid;
-  grid-template-columns: 444px 540px;
+  display: flex;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   column-gap: 125px;
+  row-gap: 45px;
 }
 
-@media screen and (max-width: 1439px) {
-  .history {
-    grid-template-columns: 540px;
-    align-items: center;
-    row-gap: 45px;
-  }
-}
-  
 .history__cover--text {
   margin: 0;
   display: flex;
@@ -370,7 +364,8 @@
   text-align: center;
 }
 
-.history__cover--img {  
+.history__cover--img {
+  width: 540px;  
   height: 498px;
   position: relative;
 }
