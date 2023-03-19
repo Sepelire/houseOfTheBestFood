@@ -266,7 +266,7 @@
 }
 
 .title-page__list-item {
-  width: 349px;
+  width: calc(290px + 59 * ((100vw - 320px) / (1440 - 320)));
   height: 328px;
   display: flex;
   flex-direction: column;
@@ -274,12 +274,6 @@
   background: white;
   text-align: center;
   box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
-}
-
-@media screen and (max-width: 1439px) {
-  .title-page__list-item {
-    width: 310px;
-  }
 }
 
 .title-page__item-figure {
