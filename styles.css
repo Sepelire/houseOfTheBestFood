@@ -710,6 +710,12 @@
   align-items: center;
 }
 
+@media screen and (max-width: 768px) {
+  .reviews {
+    padding: 11px 50px 25px;
+  }
+}
+
 .reviews__blockquote {
   margin: 0;
 }
