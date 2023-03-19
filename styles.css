@@ -261,13 +261,8 @@
 .title-page__list {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 31px;
-}
-
-@media screen and (max-width: 1439px) {
-  .title-page__list {
-    flex-wrap: wrap;
-  }
 }
 
 .title-page__list-item {
