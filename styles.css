@@ -117,14 +117,14 @@
 
 /* начало header'а */
 .header {
-  margin: 0 165px;
+  margin: 0 auto;
   padding-top: 50px;
   max-width: 1110px;
   display: flex;
   justify-content: space-between;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 1240px) {
   .header {
     margin: 0 65px;
   }
