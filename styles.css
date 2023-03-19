@@ -436,7 +436,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .ordering__cover {
     padding-bottom: 30px;
     flex-direction: column;
@@ -605,7 +605,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .menu__list {
     max-width: 350px;
     grid-template-columns: 350px;
@@ -710,7 +710,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .reviews {
     padding: 11px 50px 25px;
   }
@@ -836,7 +836,7 @@
   gap: 30px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .chefs__cover {
     max-width: 630px;
     flex-wrap: wrap;
