@@ -264,6 +264,12 @@
   gap: 31px;
 }
 
+@media screen and (max-width: 1439px) {
+  .title-page__list {
+    flex-wrap: wrap;
+  }
+}
+
 .title-page__list-item {
   width: 349px;
   height: 328px;
