@@ -544,6 +544,7 @@
 .menu {
   margin: 0 auto;
   padding: 98px 0 226px;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -565,16 +566,32 @@
 .menu__btn {
   width: 40px;
   height: 40px;
+  position: absolute;
+  top: 50%;
   border-radius: 40px;
   border: none;
   background: #D67E34;
 }
 
+.menu__btn--prev {
+  left: 75px;
+}
+
+.menu__btn--next {
+  right: 75px;
+}
+
 .menu__list {
-  margin: 0 50px;
+  margin: 0;
   display: grid;
   grid-template-columns: repeat(3, 350px);
-  column-gap: 30px;
+  column-gap: calc(0px + 30 * ((100vw - 1024px) / (1440 - 1024)));
+}
+
+@media screen and (max-width: 1439px) {
+  .menu__list {
+    grid-template-columns: repeat(2, 350px);
+  }
 }
 
 .menu__list-item {
@@ -583,6 +600,12 @@
   flex-direction: column;
   align-items: center;
   background: white;
+}
+
+@media screen and (max-width: 1439px) {
+  .menu__list-item:last-child {
+    display: none;
+  }
 }
 
 .span-chosen {
