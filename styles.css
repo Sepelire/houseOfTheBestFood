@@ -832,7 +832,15 @@
 
 .chefs__cover {
   display: flex;
-  gap: 32px;
+  justify-content: center;
+  gap: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .chefs__cover {
+    max-width: 630px;
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (max-width: 1439px) {
