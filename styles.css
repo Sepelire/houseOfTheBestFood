@@ -431,8 +431,14 @@
   line-height: 60px;
 }
 
+@media screen and (max-width: 1220px) {
+  .ordering__title {
+    text-align: center;
+  }
+}
+
 .ordering__text {
-    margin: 20px 0 0;
+  margin: 20px 0 0;
   font-size: 24px;
   font-weight: 700;
   line-height: 33px;
