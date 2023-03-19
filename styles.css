@@ -832,10 +832,17 @@
 }
 
 .navigation--footer {
+  margin: 0 auto;
+  max-width: 1110px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.footer__cover {
+  display: flex;
+  align-items: center;
 }
 
 .navigation__address--footer {
-  margin: 0 62px 0 400px;
+  margin-right: 60px;
 }
