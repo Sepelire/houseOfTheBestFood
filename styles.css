@@ -407,25 +407,14 @@
 }
 
 .ordering__cover {
-  margin: 0 165px;
-  padding-top: 80px;
+  margin: 0 66px;
+  padding: 80px 0 30px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-}
-
-@media screen and (max-width: 1439px) {
-  .ordering__cover {
-    margin: 0 65px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .ordering__cover {
-    padding-bottom: 30px;
-    flex-direction: column;
-    row-gap: 41px;
-  }
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 331px;
+  row-gap: 41px;
 }
 
 .ordering__cover-text {
@@ -443,7 +432,7 @@
 }
 
 .ordering__text {
-  margin: 20px 0 0;
+    margin: 20px 0 0;
   font-size: 24px;
   font-weight: 700;
   line-height: 33px;
