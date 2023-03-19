@@ -1,3 +1,4 @@
+/* TODO: ПОПРОСИ ВОВУ ЗАТЕМНИТЬ ФОН ХЕДЕРА!!!! */
 @font-face {
   font-family: 'Open Sans';
   src: url("fonts/OpenSans.woff") format("woff"),
@@ -586,10 +587,13 @@
   display: grid;
   grid-template-columns: repeat(3, 350px);
   column-gap: calc(0px + 30 * ((100vw - 1024px) / (1440 - 1024)));
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1439px) {
   .menu__list {
+    max-width: 730px;
+    max-height: 539px;
     grid-template-columns: repeat(2, 350px);
   }
 }
