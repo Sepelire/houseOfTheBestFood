@@ -606,12 +606,6 @@
   background: white;
 }
 
-@media screen and (max-width: 1439px) {
-  .menu__list-item:last-child {
-    display: none;
-  }
-}
-
 .span-chosen {
   padding: 11px;
   max-width: 140px;
