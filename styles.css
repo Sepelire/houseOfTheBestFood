@@ -471,6 +471,12 @@
   color: white;
 }
 
+@media screen and (max-width: 767px) {
+  .ordering__text {
+    text-align: center;
+  }
+}
+
 .ordering__btn {
   width: 157px;
   align-self: center;
