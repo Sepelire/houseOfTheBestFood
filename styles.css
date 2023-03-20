@@ -495,6 +495,7 @@
 }
 
 .dishes__cover-img {
+  max-width: 475px;
   width: calc(0px + 475 * ((100vw - 1024px) / (1440 - 1024)));
   height: 100%;
   background-image: url(img/dishes__cover-img.svg);
