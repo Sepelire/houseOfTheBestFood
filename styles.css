@@ -156,6 +156,7 @@
   font-size: 14px;
   font-weight: 700;
   line-height: 19px;
+  cursor: pointer;
 }
 
 .navigation__item-img {
@@ -412,7 +413,8 @@
 
 /* начало секции "history" */
 .history {
-  margin: 151px auto 122px;
+  margin: 0 auto;
+  padding: 151px 0 122px;
   display: flex;
   justify-content: center;
   align-items: center;

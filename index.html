@@ -13,11 +13,21 @@
         <img src="img/racoon.jpg" alt="Какая-то картинка" class="header__icon">
         <nav class="navigation navigation--header">
             <ul class="list navigation__list">
-                <li class="list-item navigation__list-item">Главная</li>
-                <li class="list-item navigation__list-item">Меню</li>
-                <li class="list-item navigation__list-item">О нас</li>
-                <li class="list-item navigation__list-item">Бронь</li>
-                <li class="list-item navigation__list-item"><a href="" class="navigation__item-link"><span class="navigation__item-span">Магазин</span></a></li>
+                <li class="list-item navigation__list-item">
+                    <a href="#title-page" class="navigation__item-link"><span class="navigation__item-span">Главная</span></a>
+                </li>
+                <li class="list-item navigation__list-item">
+                    <a href="#menu" class="navigation__item-link"><span class="navigation__item-span">Меню</span></a>
+                </li>
+                <li class="list-item navigation__list-item">
+                    <a href="#history" class="navigation__item-link"><span class="navigation__item-span">О нас</span></a>
+                </li>
+                <li class="list-item navigation__list-item">
+                    <a href="#ordering" class="navigation__item-link"><span class="navigation__item-span">Бронь</span></a>
+                </li>
+                <li class="list-item navigation__list-item">
+                    <a href="#dishes" class="navigation__item-link"><span class="navigation__item-span">Магазин</span></a>
+                </li>
             </ul>
             <address class="address navigation__address--header">
                 <a href="tel:+9998887654" class="address__telephone address__telephone--header"><img src="img/phone-receiver.png" alt="Какая-то трубка" class="address__telephone-icon"> +999-888-76-54</a>
@@ -31,11 +41,31 @@
             <span class="menu-burger__span"></span>
             <nav class="navigation menu-burger__navigation">
                 <ul class="list navigation__list menu-burger__list">
-                    <li class="list-item navigation__list-item menu-burger__list-item"><img src="img/cart.png" alt="Какой-то iconка" class="navigation__item-img"><span class="navigation__item-span">Главная</span></li>
-                    <li class="list-item navigation__list-item menu-burger__list-item"><img src="img/cart.png" alt="Какой-то iconка" class="navigation__item-img"><span class="navigation__item-span">Меню</span></li>
-                    <li class="list-item navigation__list-item menu-burger__list-item"><img src="img/cart.png" alt="Какой-то iconка" class="navigation__item-img"><span class="navigation__item-span">О нас</span></li>
-                    <li class="list-item navigation__list-item menu-burger__list-item"><img src="img/cart.png" alt="Какой-то iconка" class="navigation__item-img"><span class="navigation__item-span">Бронь</span></li>
-                    <li class="list-item navigation__list-item menu-burger__list-item"><a href="" class="navigation__item-link"><img src="img/cart.png" alt="Какой-то iconка" class="navigation__item-img"><span class="navigation__item-span">Магазин</span></a></li>
+                    <li class="list-item navigation__list-item menu-burger__list-item">
+                        <a href="#title-page" class="navigation__item-link">
+                            <img src="img/cart.png" alt="Какой-то iconка" class="navigation__item-img"><span class="navigation__item-span">Главная</span>
+                        </a>
+                    </li>
+                    <li class="list-item navigation__list-item menu-burger__list-item">
+                        <a href="#menu" class="navigation__item-link">
+                            <img src="img/cart.png" alt="Какой-то iconка" class="navigation__item-img"><span class="navigation__item-span">Меню</span>
+                        </a>
+                    </li>
+                    <li class="list-item navigation__list-item menu-burger__list-item">
+                        <a href="#history" class="navigation__item-link">
+                            <img src="img/cart.png" alt="Какой-то iconка" class="navigation__item-img"><span class="navigation__item-span">О нас</span>
+                        </a>
+                    </li>
+                    <li class="list-item navigation__list-item menu-burger__list-item">
+                        <a href="#ordering" class="navigation__item-link">
+                            <img src="img/cart.png" alt="Какой-то iconка" class="navigation__item-img"><span class="navigation__item-span">Бронь</span>
+                        </a>
+                    </li>
+                    <li class="list-item navigation__list-item menu-burger__list-item">
+                        <a href="#dishes" class="navigation__item-link">
+                            <img src="img/cart.png" alt="Какой-то iconка" class="navigation__item-img"><span class="navigation__item-span">Магазин</span>
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -44,7 +74,7 @@
     <!-- начало main'а -->
     <main class="content">
         <!-- секция "title-page" начало -->
-        <section class="title-page">
+        <section class="title-page" id="title-page">
             <div class="title-page__cover">
                 <div class="title-page__cover-title">
                     <h1 class="title title-page__title">
@@ -92,7 +122,7 @@
         </section>
         <!-- секция "title-page" конец -->
         <!-- секция "history" начало -->
-        <section class="history">
+        <section class="history" id="history">
             <div class="history__cover--text">
                 <h2 class="title history__title"><span class="title-span">Наша</span> История</h2>
                 <p class="text history__text">Как и у любого другого самобытного места, у нас есть своя, особая история. Идея ресторана пришла основателям неожиданно. Во время прогулки по лесу создатель нашего ресторана застрял в сотнях километров от ближайшего населенного пункта. Вдали от цивилизации и связи им пришлось навремя обустровать себе нехитрый быт, добывать и готовить себе еду.</p>
@@ -120,7 +150,7 @@
         </section>
         <!-- секция "history" конец -->
         <!-- секция "ordering" начало -->
-        <section class="ordering">
+        <section class="ordering" id="ordering">
             <div class="ordering__cover">
                 <div class="ordering__cover-text">
                     <h2 class="title ordering__title">Отпразднуйте в одном из самых лучших ресторанов.</h2>
@@ -131,7 +161,7 @@
         </section>
         <!-- секция "ordering" конец -->
         <!-- секция "dishes" начало -->
-        <section class="dishes">
+        <section class="dishes" id="dishes">
             <h3 class="title dishes__title"><span class="title-span">Наши</span> Блюда</h3>
             <div class="dishes__cover">
                 <div title="Какая-то еда" class="dishes__cover-img"></div>
@@ -171,7 +201,7 @@
         </section>
         <!-- секция "dishes" конец -->
         <!-- секция "menu" начало -->
-        <section class="menu">
+        <section class="menu" id="menu">
             <h3 class="title menu__title">Наше Меню</h3>
             <button class="menu__btn menu__btn--prev"></button>
             <div class="menu__slider-cover">
@@ -258,11 +288,21 @@
     <footer class="footer">
         <nav class="navigation navigation--footer">
             <ul class="list navigation__list navigation__list--footer">
-                <li class="list-item navigation__list-item">Главная</li>
-                <li class="list-item navigation__list-item">Меню</li>
-                <li class="list-item navigation__list-item">О нас</li>
-                <li class="list-item navigation__list-item">Бронь</li>
-                <li class="list-item navigation__list-item"><a href="" class="navigation__item-link"><span class="navigation__item-span--footer">Магазин</span></a></li>
+                <li class="list-item navigation__list-item">
+                    <a href="#title-page" class="navigation__item-link"><span class="navigation__item-span--footer">Главная</span></a>
+                </li>
+                <li class="list-item navigation__list-item">
+                    <a href="#menu" class="navigation__item-link"><span class="navigation__item-span--footer">Меню</span></a>
+                </li>
+                <li class="list-item navigation__list-item">
+                    <a href="#history" class="navigation__item-link"><span class="navigation__item-span--footer">О нас</span></a>
+                </li>
+                <li class="list-item navigation__list-item">
+                    <a href="#ordering" class="navigation__item-link"><span class="navigation__item-span--footer">Бронь</span></a>
+                </li>
+                <li class="list-item navigation__list-item">
+                    <a href="#dishes" class="navigation__item-link"><span class="navigation__item-span--footer">Магазин</span></a>
+                </li>
             </ul>
             <div class="footer__cover">
                 <address class="address navigation__address--footer">
