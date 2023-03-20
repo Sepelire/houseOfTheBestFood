@@ -48,6 +48,11 @@
   color: white;
 }
 
+.address__telephone:hover {
+  color: rgb(186, 186, 186);
+  transition: .5s all;
+}
+
 .address__description {
   margin: 0;
   max-width: 154px;
