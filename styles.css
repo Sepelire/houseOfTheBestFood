@@ -50,7 +50,6 @@
 
 .address__telephone:hover {
   color: rgb(186, 186, 186);
-  transition: .5s all;
 }
 
 .address__description {
@@ -112,7 +111,6 @@
   font-family: Open Sans;
 }
 
-
 /* начало header'а */
 .header {
   margin: 0 auto;
@@ -144,7 +142,6 @@
   .navigation--header {
     display: none;
   }
-
 }
 
 .navigation__list {
@@ -173,6 +170,10 @@
   text-decoration: unset;
   cursor: pointer;
   color: white;
+}
+
+.navigation__item-link:hover {
+  color: rgb(186, 186, 186);
 }
 
 .navigation__address--header {
