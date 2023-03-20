@@ -15,6 +15,7 @@
 
 * {
   box-sizing: border-box;
+  font-weight: 400;
 }
 
 .root {
@@ -51,7 +52,6 @@
   margin: 0;
   max-width: 154px;
   font-size: 14px;
-  font-weight: 400;
   line-height: 19px;
 }
 
@@ -75,7 +75,6 @@
 .title {
   margin: 0;
   font-size: 54px;
-  font-weight: 400;
   line-height: 62px;
   color: #D67E35;
 }
@@ -89,7 +88,6 @@
   color: white;
   font-family: Open Sans;
   font-size: 18px;
-  font-weight: 400;
   line-height: 25px;
 }
 
@@ -169,9 +167,6 @@
   border-left: 1px solid white;
 }
 
-.address__telephone--header {
-}
-
 .address__telephone-icon {
   max-width: 20px;
   max-height: 20px;
@@ -181,7 +176,6 @@
   margin: 0;
   max-width: 154px;
   font-size: 14px;
-  font-weight: 400;
   line-height: 19px;
 }
 
@@ -233,7 +227,6 @@
 
 .title-page__title {
   font-size: 50px;
-  font-weight: 400;
   line-height: 57px;
   text-align: center;
 }
@@ -242,21 +235,18 @@
   .title-page__title {
     white-space: pre-line;
     font-size: 30px;
-    font-weight: 400;
     line-height: 34px;
   }
 }
 
 .title-page__title--span {
   font-size: 80px;
-  font-weight: 400;
   line-height: 92px;
 }
 
 @media screen and (max-width: 425px) {
   .title-page__title--span {
     font-size: 40px;
-    font-weight: 400;
     line-height: 46px;
   }
 }
@@ -328,7 +318,6 @@
 .title-page__figure-figcaption {
   margin-bottom: 20px;
   font-size: 26px;
-  font-weight: 400;
   line-height: 30px;
 }
 
@@ -340,7 +329,6 @@
   margin: 0 0 15px;
   max-width: 300px;
   font-size: 26px;
-  font-weight: 400;
   line-height: 30px;
   color: #656363;
   white-space: pre-line;
@@ -374,7 +362,6 @@
   margin-bottom: 39px;
   max-width: 444px;
   font-size: 16px;
-  font-weight: 400;
   line-height: 22px;
   text-align: center;
 }
@@ -391,7 +378,6 @@
 .history__item-count {
   margin: 0 auto 13px;
   font-size: 40px;
-  font-weight: 400;
   line-height: 54px;
   text-align: center;
   color: #BC9060;
@@ -400,7 +386,6 @@
 .history__item-text {
   margin: 0 auto;
   font-size: 20px;
-  font-weight: 400;
   line-height: 27px;
   text-align: center;
 }
@@ -480,7 +465,6 @@
 .ordering__title {
   max-width: 601px;
   font-size: 52px;
-  font-weight: 400;
   line-height: 60px;
 }
 
@@ -493,7 +477,6 @@
 @media screen and (max-width: 425px) {
   .ordering__title {
     font-size: 30px;
-    font-weight: 400;
     line-height: 34px;
   }
 }
@@ -575,7 +558,6 @@
 .dishes__figcaption-text {
   font-family: Tinos;
   font-size: 26px;
-  font-weight: 400;
   line-height: 30px;
 }
 
@@ -592,7 +574,6 @@
 
 .dishes__figcaption-price {
   font-size: 26px;
-  font-weight: 400;
   line-height: 30px;
 }
 /* конец секции "dishes" */
@@ -690,7 +671,6 @@
   font-family: Open Sans;
   text-transform: uppercase;
   font-size: 13px;
-  font-weight: 400;
   line-height: 18px;
   text-align: center;
 }
@@ -728,7 +708,6 @@
   border-radius: 100px;
   /* font-family: Cookie; */
   font-size: 30px;
-  font-weight: 400;
   line-height: 33px;
   color: white;
 }
@@ -736,7 +715,6 @@
 .menu__figure-figcaption {
   padding: 22px 0;
   font-size: 26px;
-  font-weight: 400;
   line-height: 30px;
   text-align: center;
 }
@@ -745,7 +723,6 @@
   margin-bottom: 20px;
   max-width: 226px;
   font-size: 16px;
-  font-weight: 400;
   line-height: 22px;
   text-align: center;
 }
@@ -791,7 +768,6 @@
   max-width: 920px;
   font-size: 20px;
   font-style: italic;
-  font-weight: 400;
   line-height: 27px;
   text-align: center;
 }
@@ -818,7 +794,6 @@
   margin-bottom: 25px;
   font-family: Open Sans;
   font-size: 20px;
-  font-weight: 400;
   line-height: 27px;
   text-align: center;
 }
