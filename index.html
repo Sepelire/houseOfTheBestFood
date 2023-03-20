@@ -17,7 +17,7 @@
                 <li class="list-item navigation__list-item">Меню</li>
                 <li class="list-item navigation__list-item">О нас</li>
                 <li class="list-item navigation__list-item">Бронь</li>
-                <li class="list-item navigation__list-item"><a href=""><img src="img/cart.png" alt="Какой-то cart" class="navigation__list-img"></a></li>
+                <li class="list-item navigation__list-item"><a href="" class="navigation__item-link"><span class="navigation__item-span">Магазин</span></a></li>
             </ul>
             <address class="address navigation__address--header">
                 <a href="tel:+9998887654" class="address__telephone address__telephone--header"><img src="img/phone-receiver.png" alt="Какая-то трубка" class="address__telephone-icon"> +999-888-76-54</a>
@@ -26,7 +26,18 @@
             <button class="btn navigation__btn">Заказ столика</button>
         </nav>
         <div class="menu-burger">
+            <input type="checkbox" class="menu-burger__checkbox" id="burger-button">
+            <label for="burger-button" class="menu-burger__label"></label>
             <span class="menu-burger__span"></span>
+            <nav class="navigation menu-burger__navigation">
+                <ul class="list navigation__list menu-burger__list">
+                    <li class="list-item navigation__list-item menu-burger__list-item"><img src="img/cart.png" alt="Какой-то iconка" class="navigation__item-img"><span class="navigation__item-span">Главная</span></li>
+                    <li class="list-item navigation__list-item menu-burger__list-item"><img src="img/cart.png" alt="Какой-то iconка" class="navigation__item-img"><span class="navigation__item-span">Меню</span></li>
+                    <li class="list-item navigation__list-item menu-burger__list-item"><img src="img/cart.png" alt="Какой-то iconка" class="navigation__item-img"><span class="navigation__item-span">О нас</span></li>
+                    <li class="list-item navigation__list-item menu-burger__list-item"><img src="img/cart.png" alt="Какой-то iconка" class="navigation__item-img"><span class="navigation__item-span">Бронь</span></li>
+                    <li class="list-item navigation__list-item menu-burger__list-item"><a href="" class="navigation__item-link"><img src="img/cart.png" alt="Какой-то iconка" class="navigation__item-img"><span class="navigation__item-span">Магазин</span></a></li>
+                </ul>
+            </nav>
         </div>
     </header>
     <!-- конец header'а -->
@@ -251,7 +262,7 @@
                 <li class="list-item navigation__list-item">Меню</li>
                 <li class="list-item navigation__list-item">О нас</li>
                 <li class="list-item navigation__list-item">Бронь</li>
-                <li class="list-item navigation__list-item"><a href=""><img src="img/cart.png" alt="Какой-то магазин" class="navigation__list-img"></a></li>
+                <li class="list-item navigation__list-item"><a href="" class="navigation__item-link"><span class="navigation__item-span--footer">Магазин</span></a></li>
             </ul>
             <div class="footer__cover">
                 <address class="address navigation__address--footer">
