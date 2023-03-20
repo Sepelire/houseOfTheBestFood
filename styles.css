@@ -564,6 +564,12 @@
   font-size: 26px;
   line-height: 30px;
 }
+
+@media screen and (max-width: 767px) {
+  .dishes__figcaption-price {
+    font-size: 22px;
+  }
+}
 /* конец секции "dishes" */
 
 /* начало секции "menu" */
@@ -612,7 +618,7 @@
   display: grid;
   max-height: 539px;
   grid-template-columns: repeat(3, 350px);
-  column-gap: calc(0px + 30 * ((100vw - 1024px) / (1440 - 1024)));
+  column-gap: 30px;
   overflow: hidden;
 }
 
