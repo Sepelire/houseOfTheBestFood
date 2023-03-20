@@ -427,7 +427,7 @@
 }
 
 .ordering__cover {
-  margin: 0 66px;
+  margin: 0 calc(0px + 66 * ((100vw - 320px) / (1440 - 320)));
   padding: 80px 0 30px;
   display: flex;
   align-items: center;
@@ -435,12 +435,6 @@
   flex-wrap: wrap;
   column-gap: 331px;
   row-gap: 41px;
-}
-
-@media screen and (max-width: 425px) {
-  .ordering__cover {
-    margin: 0;
-  }
 }
 
 .ordering__cover-text {
@@ -475,12 +469,6 @@
   font-weight: 700;
   line-height: 33px;
   color: white;
-}
-
-@media screen and (max-width: 425px) {
-  .ordering__text {
-    text-align: center;
-  }
 }
 
 .ordering__btn {
@@ -912,7 +900,6 @@
 @media screen and (max-width: 737px) {
   .navigation__list--footer {
     flex-direction: column;
-    text-align: left;
   }
 }
 
