@@ -164,19 +164,14 @@
   cursor: pointer;
 }
 
-.navigation__item-img {
-  max-width: 19px;
-  max-height: 19px;
+.menu-burger__item-img {
+  max-width: 23px;
+  max-height: 23px;
 }
 
 .navigation__item-link {
   text-decoration: unset;
   cursor: pointer;
-  color: white;
-}
-
-.navigation__item-span {
-  padding-left: 10px;
   color: white;
 }
 
@@ -278,6 +273,10 @@
   margin-bottom: 10px;
   padding-left: 30px;
   font-size: 17px;
+}
+
+.menu-burger__item-span {
+  padding-left: 10px;
 }
 /* конец header'а */
 
