@@ -636,7 +636,7 @@
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 767px) {
   .menu__list {
     max-width: 290px;
   }
@@ -650,7 +650,7 @@
   background: white;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 767px) {
   .menu__list-item {
     max-width: 290px;
   }
