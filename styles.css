@@ -681,7 +681,7 @@
 /* начало секции "menu" */
 .menu {
   margin: 0 auto;
-  padding: 98px 0 226px;
+  padding: 98px 0 225px;
   position: relative;
   display: flex;
   flex-direction: column;
